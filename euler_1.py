@@ -12,7 +12,7 @@ def triangular_number(n):
 
 
 
-# mistake: 15 is a multiple of both 3 and 5, and so will be counted twice in my formula
+# a mistake: 15 is a multiple of both 3 and 5, and so will be counted twice in my formula
 # a simple solution should be to just subtract the sum of all multiples of 15
 if __name__ == '__main__':
     test_total = sum_of_multiples(3,10) + sum_of_multiples(5,10) - sum_of_multiples(15,20)

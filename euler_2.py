@@ -1,0 +1,1 @@
+# calculate the sum of all even fibonacci terms
