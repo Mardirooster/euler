@@ -10,3 +10,7 @@ def triangular_number(n):
     return int((n*(n+1)) / 2)
 
 
+if __name__ == '__main__':
+    test_total = sum_of_multiples(3,10) + sum_of_multiples(5,10)
+    print("Euler 1:")
+    print("Sum of multiples of 3 and 5 under 10 is: " + str(test_total))
