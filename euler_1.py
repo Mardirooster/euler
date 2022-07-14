@@ -4,4 +4,7 @@
 # 1 + 2 + 3 + ... n is a triangular number and can be expressed as n*(n+1)/2
 def sum_of_multiples(number,max=100):
 		n = max // number
-		return ((n*(n+1)) / 2 ) * number
+		return triangular_number * number
+
+def triangular_number(n):
+	return (n*(n+1)) / 2
